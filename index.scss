@@ -202,7 +202,9 @@ margin-left: 10%;
     background-color: #FBF8E5;
     height: 100vh;
     behavior: 'smooth';
-    flex-direction: row;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
 
 .hero-img{
@@ -304,6 +306,8 @@ transition: all 0.3s linear;
     grid-template-columns: 1fr 1fr;
     background-color:#FCC9C9;
     height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
     behavior: 'smooth';
 
 }
@@ -500,7 +504,8 @@ input[type="submit"]:hover{
     display: grid;
     background-size: 100vh;
     height: 100vh;
-    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
 
   }
  
