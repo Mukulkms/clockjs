@@ -214,8 +214,10 @@ p:hover {
   background-color: #FBF8E5;
   height: 100vh;
   behavior: 'smooth';
-  background-repeat: no-repeat;
-  background-size: cover;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
 .hero-img {
@@ -350,8 +352,6 @@ p:hover {
       grid-template-columns: 1fr 1fr;
   background-color: #FCC9C9;
   height: 100vh;
-  background-repeat: no-repeat;
-  background-size: cover;
   behavior: 'smooth';
 }
 
@@ -586,14 +586,20 @@ input[type="submit"]:hover {
 }
 
 #footer {
-  background-color: #0B045C;
+  background-color: #0b0a44;
   background-repeat: no-repeat;
   display: -ms-grid;
   display: grid;
   background-size: 100vh;
   height: 100vh;
+}
+
+#footer1 {
+  background-color: #0B045C;
   background-repeat: no-repeat;
-  background-size: cover;
+  display: -ms-grid;
+  display: grid;
+  height: 50vh;
 }
 
 .social-media-icons {

@@ -201,11 +201,8 @@ margin-left: 10%;
     grid-template-columns: 1fr 1fr;
     background-color: #FBF8E5;
     height: 100vh;
-    position: relative;
     behavior: 'smooth';
-    background-repeat: no-repeat;
-    background-size: cover;
-    
+    flex-direction: row;
 }
 
 .hero-img{
@@ -307,9 +304,6 @@ transition: all 0.3s linear;
     grid-template-columns: 1fr 1fr;
     background-color:#FCC9C9;
     height: 100vh;
-    position: relative;
-    background-repeat: no-repeat;
-    background-size: cover;
     behavior: 'smooth';
 
 }
@@ -409,10 +403,7 @@ transition: all 0.3s linear;
 }
 
 /*************footer********************/
-.footer{
-    display: grid;
-    position: relative;
-}
+
 
 h3{
     font-family: 'syncopate';
@@ -504,13 +495,20 @@ input[type="submit"]:hover{
 
 
 #footer{
-    background-color:#0B045C;
+    background-color:#0b0a44;
     background-repeat: no-repeat;
     display: grid;
     background-size: 100vh;
     height: 100vh;
+   
+
+  }
+  #footer1{
+    background-color:#0B045C;
     background-repeat: no-repeat;
-    background-size: cover;
+    display: grid;
+    height: 50vh;
+    
 
   }
  
