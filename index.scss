@@ -407,7 +407,10 @@ transition: all 0.3s linear;
 }
 
 /*************footer********************/
-
+.footer{
+    display: grid;
+    position: relative;
+}
 
 h3{
     font-family: 'syncopate';
