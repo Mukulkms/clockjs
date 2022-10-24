@@ -4,89 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-    <link rel="stylesheet" href="index.css">
-    
-    <title>Document</title>
-    
+    <link rel="stylesheet" href="style.css">
+    <title>Digital clock</title>
 </head>
 <body>
-    <header>
-        <div class="logo"><img class=lg src="logo.png" alt=""></div>
-        <navbar class="nav-menu">
-        <a href="">Home</a>
-        <a href="#about">About</a>
-        <a href="">Resume</a>
-        <a href="#container">My work</a>
-        </navbar>
-       
-    </header>
-
-    
- <section>
-     <div class="right-col">
-         <p>A UI/UX Designer i loves to create design that look  attractive </p>
-             <h1 class="mask">Hello,<br>I’m<span> Mukul,</span> <br> Web designer</h1><br><br><br>
-             <a  class="btn" href="contact.html">Contact me</a><br><br><br><br>
-             <img class="circles" src="circles.png" alt="">
-        </div>
-       
-     <div class="left-col"> 
-     <img class="tiktik" src="Titik-titik.png" alt=""> <br><br>
-     
-        
-    </div>
- </section>
-<script src="index.js"></script>
-
-
-<main id="about">
-    <div class="left-col1">
-        <h1 class="heading2">About <span class="span2">Me</span></h1>
-         <img class="hero-img" src="me.svg" alt=""></a>
-       
-    </div>
-    <div class="right-col1"> 
-        
-        <h4 class="para">
-        My name is Mukul and i am 22 years old and recently i have completed my Bca graduate from IIMT COLLEGE OF MANAGEMENT GREATER NOIDA.
-        <br><br>
-        If I talk About my interest i love singing, sketching, listing Music and playing videos games.
-         In my free time i love to hangout with my friends. My Aim is to become a UI/UX Designer.</h4></div>
-</main>
-
 <div id="container">
-     <div class="left-col2">
-        <h4 class="para1">Library System management - jan 25,2021,feb 10,2021 mentor-Tushar gupta | team size:3 The Project “Library system management” is a management software for monitoring and controlling the transaction in library. 
-            DEEP TRADING COMPANY WEBSITE- Made by me-</h4><br><br><br>
-            <a class="btn1" href="https://mukulkms.github.io/deep/">Visit</a>
-     </div>
-     <div class="right-col2">
-        <h1 class="heading3">Work</h1>
-        <img  class="hero-img2" src="lap.svg" alt="">
-     </div>
+    <div class="circle" style="--clr:#ff2195">
+       <div class="dots hr_dot"></div>
+        <svg>
+            <circle cx="70" cy="70" r="70"></circle>
+            <circle cx="70" cy="70" r="70" id="hh"></circle>
+        </svg>
+    <div id="hours">00</div>
 </div>
-   <!--Footer-->
-   <div id="footer1">
-  
 
-    <div class="social-media-icons">
-        <a href="https://www.facebook.com/Mukulkumarsingh31?ref=bookmarks"><img class="fb" src="Fb.png" alt=""></a>
-        <a href="https://www.instagram.com/mukul.k.s"><img class="insta" src="insta.png" alt=""></a>
-        <a href="https://twitter.com/MukulKu83771937"><img class="twitter" src="Twitter.png" alt=""></a>
-        <a href="https://www.linkedin.com/in/mukul-kumar-singh-57364220a"><img  class="linkedin" src="linkedin.png" alt=""></a>
-       
+<div class="circle" style="--clr:#fe4">
+    <div class="dots mm_dot"></div>
+   
+    <svg>
+        <circle cx="70" cy="70" r="70"></circle>
+        <circle cx="70" cy="70" r="70" id="mm"></circle>
+    </svg>
+    <div id="minutes">00</div>
+</div>
+
+<div class="circle" style="--clr:lime">
+    <div class="dots ss_dot"></div>
     
-
-    <div class="footer-links-2">
-  <a class="h" href="index.html">Home</a>
-  <a class="a" href="#about">About</a>
-  <a class="c" href="contact.html">Contact</a>
-  </div>
+    <svg>
+        <circle cx="70" cy="70" r="70"></circle>
+        <circle cx="70" cy="70" r="70" id="ss"></circle>
+    </svg>
+    <div id="seconds">00</div>
 </div>
-
-<h6>©2021 Mukul Kumar Singh | All Rights Reserved</h6>
-  </footer>
-
+<div class="ap">
+    <div id="session">AM</div>
+</div>
+</div>
+    <script src="files.js"></script>
 </body>
 </html>
