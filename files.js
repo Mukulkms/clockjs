@@ -19,6 +19,9 @@ function displayTime(){
    if(hrs>12){
     hrs=hrs-12;
    }
+   if(hrs==00){
+    hrs=12;
+   }
 
  hrs=(hrs<10)?"0"+hrs:hrs;
  min=(min<10)?"0"+min:min;
